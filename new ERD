@@ -1118,6 +1118,18 @@
         <mxCell id="bE2Jbr3-fPcmsCBlvRQX-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="owns" vertex="1">
           <mxGeometry height="30" width="60" x="2501" y="2094" as="geometry" />
         </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1..1" vertex="1">
+          <mxGeometry height="30" width="60" x="-310" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-152" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1..1" vertex="1">
+          <mxGeometry height="30" width="60" x="-120" y="2122" as="geometry" />
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-153" parent="1" style="triangle;whiteSpace=wrap;html=1;rotation=-180;fillColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="-249" y="2154" as="geometry" />
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-154" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="has_account" vertex="1">
+          <mxGeometry height="30" width="60" x="-209" y="2149" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
