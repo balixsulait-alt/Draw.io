@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="E-nal98xYFVPtqt__YN0">
-    <mxGraphModel dx="5520" dy="2575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2363" dy="-114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,11 +511,8 @@
         <mxCell id="fJEl_lznkMjyc134HWsq-131" parent="fJEl_lznkMjyc134HWsq-127" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="payment_date" vertex="1">
           <mxGeometry height="26" width="160" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="fJEl_lznkMjyc134HWsq-132" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="--- RELATIONSHIPS ---" vertex="1">
-          <mxGeometry height="30" width="180" x="6400" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="fJEl_lznkMjyc134HWsq-133" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="PERSON -- becomes --&gt; PATIENT (1..1, 1..1)" vertex="1">
-          <mxGeometry height="962" width="490" x="6620" y="20" as="geometry" />
+          <mxGeometry height="962" width="490" x="3650" y="1329" as="geometry" />
         </mxCell>
         <mxCell id="fJEl_lznkMjyc134HWsq-134" parent="fJEl_lznkMjyc134HWsq-133" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="PERSON -- employed_as --&gt; STAFF (1..1, 1..1)" vertex="1">
           <mxGeometry height="26" width="490" y="26" as="geometry" />
@@ -736,6 +733,18 @@
             <mxPoint x="2400" y="3410" as="sourcePoint" />
             <mxPoint x="2370" y="1906" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1..1" vertex="1">
+          <mxGeometry height="30" width="60" x="-300" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="-130" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="assigned_role" vertex="1">
+          <mxGeometry height="30" width="60" x="-194" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="bE2Jbr3-fPcmsCBlvRQX-4" parent="1" style="triangle;whiteSpace=wrap;html=1;rotation=-180;fillColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="-230" y="1975" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
